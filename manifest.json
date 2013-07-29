@@ -1,0 +1,40 @@
+{
+  "devMode": true,
+  "authorNick": "leeolayvar",
+  "multiple": false,
+  "background": false,
+  "hiddenHandle": false,
+  "behavior": "application",
+  "version": "0.1",
+  "name": "Markdown",
+  "identifier": "com.koding.apps.Markdown",
+  "path": "~/Applications/markdown.kdapp",
+  "homepage": "leeolayvar.kd.io/markdown",
+  "author": "Lee Olayvar",
+  "repository": "git://github.com/fkadev/Markdown.kdapp.git",
+  "description": "Markdown : a Koding application to create install Markdown.",
+  "category": "installer",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./app/core.coffee",
+          "./recipe/installer.coffee",
+          "./app/utilities.coffee",
+          "./app/views.coffee",
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  },
+  "menu": []
+}
