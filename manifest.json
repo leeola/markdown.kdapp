@@ -11,8 +11,8 @@
   "path": "~/Applications/markdown.kdapp",
   "homepage": "leeolayvar.kd.io/markdown",
   "author": "Lee Olayvar",
-  "repository": "git://github.com/fkadev/Markdown.kdapp.git",
-  "description": "Markdown : a Koding application to create install Markdown.",
+  "repository": "git://github.com/leeolayvar/markdown.kdapp.git",
+  "description": "Markdown : a Koding application to create Markdown.",
   "category": "installer",
   "source": {
     "blocks": {

@@ -1,1 +1,11 @@
-This is the README file for your awesome Koding App!
+
+# Markdown Editor
+
+This is a two purpose app.
+
+1. It serves as a useful Markdown editor that automatically compiles your
+  markdown to the right.
+2. It is very well documented and is a "learning app"
+
+In the future, this app will serve as the basis for a Koding Docs guide which
+will cover the creation of this app.
