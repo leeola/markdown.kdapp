@@ -12,8 +12,10 @@
 {
   notify
   render_md
-}           = Installer.Utilities
+}           = App.Utilities
 
+console.log 'Hello Test! 3'
+throw new Error 'zomg'
 
 
 # # Base View
@@ -29,6 +31,7 @@
 class Views.BaseView extends JView
   constructor: -> super
 
+console.log 'Baseview Print'
 
 # # MainView
 #
@@ -39,9 +42,19 @@ class Views.BaseView extends JView
 # One view, is the Ace view we loaded earlier *(in `index.coffee`)*,
 # the other view is a view to inject html. This html is compiled from
 # the markdown loaded into the Ace editor.
-class Views.MainView extends BaseView
+class Views.MainView extends JView
   constructor: (options={}, data)->
     options.cssClass ?= "installer-container"
     super options, data
+
+    aceView = new KDView()
+
+    previewView = new KDView()
+
+    splitView = new KDSplitView
+      type    : 'vertical'
+      resizable : yes
+      sizes     : ["50%", "50%"]
+      views     : [aceView, previewView]
 
 

@@ -13,7 +13,7 @@
   "author": "Lee Olayvar",
   "repository": "git://github.com/leeolayvar/markdown.kdapp.git",
   "description": "Markdown : a Koding application to create Markdown.",
-  "category": "installer",
+  "category": "editor",
   "source": {
     "blocks": {
       "app": {

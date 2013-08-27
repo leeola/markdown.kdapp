@@ -19,12 +19,16 @@
 # creating a new scope and ensuring nothing leaks, namely our view
 # instance.
 do ->
+  #Enable Logs for Development
+  KD.enableLogs()
+  console.log "Markdown App Loaded"
+
   # Our MainView instance, which is assigned in `./app/views.coffee`.
-  main_view = new MainView()
+  mainView = new MainView()
   
   # Now assign it to appView.
   #
   # As far as i can tell appView is the view instance of the tab for your
   # app. Assigning your mainview to it, allows your app to be a subview
   # of the tab view, and thus, allowing your app to exist.
-  appView.addSubView main_view
+  appView.addSubView mainView
