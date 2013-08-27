@@ -19,7 +19,6 @@
       "app": {
         "files": [
           "./app/core.coffee",
-          "./recipe/installer.coffee",
           "./app/utilities.coffee",
           "./app/views.coffee",
           "./index.coffee"
