@@ -14,8 +14,6 @@
   render_md
 }           = App.Utilities
 
-console.log 'Hello Test! 3'
-throw new Error 'zomg'
 
 
 # # Base View

@@ -18,6 +18,7 @@
     "blocks": {
       "app": {
         "files": [
+          "./easy_compile.coffee",
           "./app/core.coffee",
           "./app/utilities.coffee",
           "./app/views.coffee",
